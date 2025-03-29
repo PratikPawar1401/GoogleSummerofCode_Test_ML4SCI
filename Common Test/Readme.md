@@ -33,6 +33,4 @@ I'm actively working on enhancing this project. Here's my roadmap for future imp
 
 ### Engineering Improvements
 - [ ] Add experiment tracking (MLflow or W&B)
-- [ ] Create deployment-ready inference pipeline
-- [ ] Add comprehensive unit tests
 - [ ] Create configuration file system
