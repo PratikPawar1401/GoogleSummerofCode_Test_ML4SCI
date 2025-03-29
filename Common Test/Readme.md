@@ -20,7 +20,6 @@ Training and validation loss (left) and AUC (right) over training epochs.*
 I'm actively working on enhancing this project. Here's my roadmap for future improvements:
 
 ### Data Handling & Augmentation
-- [ ] Add rotation, flipping, and other relevant augmentations
 - [ ] Implement test-time augmentation for more robust predictions
 - [ ] Add caching for faster data loading
 
@@ -29,14 +28,7 @@ I'm actively working on enhancing this project. Here's my roadmap for future imp
 - [ ] Add attention mechanisms to focus on important features
 - [ ] Test ensemble methods for improved accuracy
 
-### Training Process
-- [ ] Implement learning rate scheduling (cosine annealing)
-- [ ] Add early stopping to prevent overfitting
-- [ ] Add mixed-precision training for faster execution
-
 ### Validation & Evaluation
-- [ ] Implement k-fold cross-validation
-- [ ] Add visualization of misclassified samples
 - [ ] Implement Grad-CAM for model interpretability
 
 ### Engineering Improvements
