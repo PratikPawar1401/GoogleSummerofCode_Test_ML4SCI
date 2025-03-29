@@ -1,0 +1,43 @@
+# Multiclass Classification Common Test
+This repository contains a PyTorch implementation of a deep learning pipeline for classifying gravitational lensing effects. The model is trained to distinguish between three classes of lensing: no lensing (`no`), spherical lensing (`sphere`), and vortex/complex lensing (`vort`).
+
+## How It Works
+
+The pipeline takes gravitational lensing images (stored as NumPy arrays), processes them through a transfer learning model (default: ResNet18, optimized: EfficientNet-B0), and classifies them into three categories. The model uses a custom classification head with dropout regularization.
+
+Training includes comprehensive logging, checkpointing based on validation AUC, and visualization of performance metrics (confusion matrices, ROC curves, and training history).
+
+## Results
+![roc_curve](https://github.com/user-attachments/assets/2dc9b3da-b8c5-4c01-a772-71e34382c787)
+
+
+
+## Future Improvements
+
+I'm actively working on enhancing this project. Here's my roadmap for future improvements:
+
+### Data Handling & Augmentation
+- [ ] Add rotation, flipping, and other relevant augmentations
+- [ ] Implement test-time augmentation for more robust predictions
+- [ ] Add caching for faster data loading
+
+### Model Architecture
+- [ ] Experiment with astronomy-specific architectures
+- [ ] Add attention mechanisms to focus on important features
+- [ ] Test ensemble methods for improved accuracy
+
+### Training Process
+- [ ] Implement learning rate scheduling (cosine annealing)
+- [ ] Add early stopping to prevent overfitting
+- [ ] Add mixed-precision training for faster execution
+
+### Validation & Evaluation
+- [ ] Implement k-fold cross-validation
+- [ ] Add visualization of misclassified samples
+- [ ] Implement Grad-CAM for model interpretability
+
+### Engineering Improvements
+- [ ] Add experiment tracking (MLflow or W&B)
+- [ ] Create deployment-ready inference pipeline
+- [ ] Add comprehensive unit tests
+- [ ] Create configuration file system
