@@ -1,2 +1,2 @@
 # GoogleSummerofCode_Test_ML4SCI
-This repo contains the solutions of the tasks required for GSOC'25 for the DeepLense Project (Gravitational Lens Finding) .
+This repo contains the solutions of the tasks required for GSOC'25 for the DeepLense Project (Gravitational Lens Finding) . Here I have tried out different approaches to to boost the model performance through various different approaches , pre-dominantly CNN architectures . In these notebooks , I have achieved fruitful results and tried to solve the problem with my utmost knowledge. 
