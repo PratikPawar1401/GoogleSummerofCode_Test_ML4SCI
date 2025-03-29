@@ -9,6 +9,9 @@ Training includes comprehensive logging, checkpointing based on validation AUC, 
 
 ## Results
 ![roc_curve](https://github.com/user-attachments/assets/2dc9b3da-b8c5-4c01-a772-71e34382c787)
+*ROC curve showing the model's performance on the test dataset.*
+
+![training_history(3)](https://github.com/user-attachments/assets/ec572c70-e34b-4993-b51e-79696f3f7d6f)
 
 
 
