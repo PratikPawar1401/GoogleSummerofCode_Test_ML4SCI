@@ -12,7 +12,7 @@ Training includes comprehensive logging, checkpointing based on validation AUC, 
 *ROC curve showing the model's performance on the test dataset.*
 
 ![training_history(3)](https://github.com/user-attachments/assets/ec572c70-e34b-4993-b51e-79696f3f7d6f)
-
+Training and validation loss (left) and AUC (right) over training epochs.*
 
 
 ## Future Improvements
